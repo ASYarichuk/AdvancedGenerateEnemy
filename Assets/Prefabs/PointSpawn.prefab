@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 6452364744791440778}
   - component: {fileID: 6452364744791440779}
   - component: {fileID: 1831241988}
-  - component: {fileID: 5883920094723518306}
   m_Layer: 0
   m_Name: PointSpawn
   m_TagString: Untagged
@@ -112,17 +111,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _unit: {fileID: -3700232518348554941, guid: e952181b48422334c931568d07000a37, type: 3}
---- !u!114 &5883920094723518306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6452364744791440773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e790949f7f19a5041ae8f2cc1c4d69c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _unitsCreator: {fileID: 1831241988}
   _target: {fileID: 0}

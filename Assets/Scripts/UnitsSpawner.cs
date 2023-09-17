@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UnitsSpawner : MonoBehaviour
 {
-    private UnitsCreator[] _creator;
+    private Unit[] _creator;
 
     private int _currentSpawn;
 
@@ -12,7 +12,7 @@ public class UnitsSpawner : MonoBehaviour
 
     private void Awake()
     {
-        _creator = gameObject.GetComponentsInChildren<UnitsCreator>();
+        _creator = gameObject.GetComponentsInChildren<Unit>();
     }
 
     private void Start()

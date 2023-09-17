@@ -170,7 +170,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffc6f3f067583a549a729f14a2bb96cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _creator: []
 --- !u!1001 &159805055
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -395,7 +394,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PointSpawn (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5883920094723518306, guid: 8109f700c9efdd848811981942f752da, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8109f700c9efdd848811981942f752da, type: 3}
 --- !u!1 &705507993
 GameObject:
@@ -654,7 +654,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PointSpawn (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5883920094723518306, guid: 8109f700c9efdd848811981942f752da, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8109f700c9efdd848811981942f752da, type: 3}
 --- !u!4 &1206742768 stripped
 Transform:
@@ -917,7 +918,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PointSpawn
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5883920094723518306, guid: 8109f700c9efdd848811981942f752da, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8109f700c9efdd848811981942f752da, type: 3}
 --- !u!1001 &7074220662036198879
 PrefabInstance:
